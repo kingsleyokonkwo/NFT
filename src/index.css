@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+:root {
+  --background: #10161d;
+  --text-primary: #f8fafc;
+  --accent: #3f7cf5;
+}
+
+body {
+  background: var(--background);
+}
+
+h1, li, p, h3, h2, h4, a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  padding: .7rem 1.4rem;
+  font-size: .8rem;
+  background: var(--accent);
+  color: var(--text-primary);
+  border: none;
+  border-radius: .5rem;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  transform: scale(1.02);
+}

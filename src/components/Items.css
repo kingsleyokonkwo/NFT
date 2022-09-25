@@ -1,0 +1,125 @@
+.item-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    padding: 0 4rem;
+    border-bottom: 3px solid rgba(128, 128, 128, .2);
+}
+
+.box {
+    margin-right: 4rem;
+}
+
+.map {
+    margin-left: 4rem;
+}
+
+.nft-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.item-container {
+    padding: 3rem 4rem 0;
+    display: flex;
+}
+
+.triats {
+    flex: 1;
+}
+
+.nft-container {
+    flex: 3;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    background-color: rgba(128, 128, 128, .2);
+    height: 3rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.NFT-input {
+    width: 100%;
+    border: none;
+    padding: .3rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    color: var(--text-primary);
+}
+
+.NFT-input::placeholder{
+    color: var(--text-primary);
+}
+
+.price {
+    background-color: rgba(128, 128, 128, .2);
+    padding: .9rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+}
+
+.page-no {
+    padding: 0 4rem 6rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.number {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 26%;
+    margin-top: 1rem;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+}
+
+.angle {
+    border: 2px solid var(--text-primary);
+    font-size: 1.8rem;
+    font-weight: 100;
+    border-radius: .5rem;
+    padding: .1rem;
+    cursor: pointer;
+}
+
+.numbers {
+    display: flex;
+}
+
+.numbers p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 30px;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#one {
+    background-color: var(--accent);
+    border-radius: .5rem;
+}

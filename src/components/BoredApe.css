@@ -1,0 +1,94 @@
+.BA-container {
+    padding: 0 4rem 4rem;
+}
+
+.BA-h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: .8rem;
+    text-align: center;
+}
+
+.BA-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: .8rem;
+}
+
+.BA-rate {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+
+.star-icon {
+    display: flex;
+    width: 7.5rem;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.BA-link {
+    font-size: 1rem;
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.BA-p {
+    padding-bottom: 1rem;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+.BA-socials {
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.BA-icon {
+    height: 2.2rem;
+    width: 2.2rem;
+    padding: .3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--text-primary);
+    background-color: rgba(128, 128, 128, .3);
+}
+
+.market {
+    display: flex;
+    background: rgba(128, 128, 128, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: var(--box-shadow);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.amount {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    padding-bottom: .4rem;
+    align-items: center;
+    display: flex;
+}
+
+.desc {
+    font-weight: 200;
+    font-size: .9rem;
+    color: var(--text-primary);
+}
