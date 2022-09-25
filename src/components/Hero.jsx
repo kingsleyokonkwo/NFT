@@ -18,7 +18,9 @@ export default function Hero() {
                 <img className="hero-img" src={nft2} alt='nft'/>
                 <img id="img3" className="hero-img" src={nft3} alt='nft'/>
                 <img className="hero-image" src={nft4} alt='nft'/>
+                
             </span>
+            <div className="circle"></div>
         </div>
         <div className="reaction">
             <div className="action">

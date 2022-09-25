@@ -16,7 +16,7 @@ export default function BoredApe() {
                     <BsStarFill size={20} style={{color: "orange"}}/>
                     <BsStarFill size={20} style={{color: "orange"}}/>
                 </div>
-                <a className="BA-link" href="#">Add Rating</a>
+                <a className="BA-link" href="">Add Rating</a>
             </span>
             <p className="BA-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At omnis cupiditate nihil ut doloremque nisi quos dolorem odio ipsa consequatur odit, unde officia facilis debitis praesentium, facere similique ab atque.</p>
             <span className="BA-socials">

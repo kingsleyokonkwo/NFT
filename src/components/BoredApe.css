@@ -1,5 +1,6 @@
 .BA-container {
     padding: 0 4rem 4rem;
+    background: var(--background);
 }
 
 .BA-h3 {
